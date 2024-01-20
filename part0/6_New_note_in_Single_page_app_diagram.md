@@ -10,6 +10,6 @@ sequenceDiagram
     server-->>browser: Server Responds Status code 201 Created {"message":"note created"}
     deactivate server
 
-    Note Right of browser: The browser starts executing the JavaScript code that adds the new note as a list item in the end
+    Note Right of browser: The browser starts executing the JavaScript code that adds the new note as a list item in the end of the list
 
 ```
