@@ -32,7 +32,7 @@ sequenceDiagram
     server-->>browser: Server Responds 302 {"Location": "/exampleapp/notes"}
     deactivate server
 
-    Note Right of Browser: The browser redirects to https://studies.cs.helsinki.fi/exampleapp/notes
+    Note Right of browser: The browser redirects to https://studies.cs.helsinki.fi/exampleapp/notes
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
